@@ -1,0 +1,39 @@
+.linear-progress {
+    background: rgba(187, 222, 251, 0);
+    position: relative;
+    overflow: hidden;
+    animation: start 0.3s ease-in;
+    width: 100%;
+    height: 4px;
+}
+.linear-progress .progBar {
+    position: absolute;
+    background: #1565c0;
+    transition: transform 0.2s linear;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.linear-progress .bar1 {
+    animation: progressLinearMovement 2.5s infinite;
+    animation-delay: 0;
+}
+.linear-progress .bar2 {
+    left: -100%;
+    animation: progressLinearMovement 2.5s infinite;
+    animation-delay: 0.7s;
+}
+
+@keyframes progressLinearMovement {
+    0% {
+        left: -100%;
+    }
+    50% {
+        left: 100%;
+    }
+    100% {
+        left: 100%;
+    }
+}

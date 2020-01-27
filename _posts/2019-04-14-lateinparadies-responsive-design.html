@@ -1,0 +1,15 @@
+---
+layout:		post
+title:		New Responsive Design for the Lateinparadies
+date:		2019-08-07 18:02
+categories:	lateinparadies
+---
+
+<p>The Lateinparadies now has a responsive design. This means that we no longer need a separate mobile page, since the main page adapts dynamically to your screen width!</p>
+
+{% for post in site.posts limit:3 %}
+	<div class="post-link">
+		<span>{{ post.title }}</span>
+		<span>{{ post.description }}</span>
+	</div>
+{% endfor %}
