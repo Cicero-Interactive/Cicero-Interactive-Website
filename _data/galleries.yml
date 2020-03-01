@@ -1,0 +1,7 @@
+- name: slideshow
+  dir: assets/images/slideshow/
+  direction: rtl
+  visible: all
+  images:
+  - name: 01.png
+    direction: ltr
