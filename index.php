@@ -3,92 +3,100 @@ layout:	wrapper
 title:	Cicero Interactive
 ---
 
-<div class="table" style="width: 100%">
-	<div class="tr">
-		<div class="td">
-			<div class="linear-progress" id="Progressbar">
-				<div class="progBar bar1"></div>
-				<div class="progBar bar2"></div>
-			</div>
+{% assign page.galleries = site.data.galleries | process_galleries %}
 
-			<div class="slideshow">
-				<span class="mySlides w3-animate-left">
-					<span style="background-image: url(assets/images/01.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/01.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/02.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/02.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/03.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/03.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/04.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/04.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/05.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/05.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/06.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/06.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/07.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/07.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/08.png)"></span>
-					<span style="background-position: center bottom; top: unset; bottom: 5px"></span>
-					<span style="background-image: url(assets/images/08.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/09.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/09.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/10.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/10.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/11.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/11.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/12.png)"></span>
-					<span style="background-position: center bottom; top: unset; bottom: 5px"></span>
-					<span style="background-image: url(assets/images/12.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/13.png)"></span>
-					<span style="background-position: center bottom; top: unset; bottom: 5px"></span>
-					<span style="background-image: url(assets/images/13.png)"></span>
-				</span>
-				<span class="mySlides w3-animate-right">
-					<span style="background-image: url(assets/images/14.png)"></span>
-					<span></span>
-					<span style="background-image: url(assets/images/14.png)"></span>
-				</span>
-			</div>
-			<script src="assets/js/slideshow.js"></script>
-		</div>
+<main>
+	<div class="card card-slideshow">
+		{% for gallery in site.data.galleries %}
+			{% if gallery.name == "slideshow" %}
+				{% for image in gallery.images %}
+					<span class="mySlides 
+						{% if image.direction == "ltr" %}
+							w3-animate-left
+						{% else %}
+							w3-animate-right
+						{% endif %}">
+						<span style="background-image: url('{{ image.path }}');"></span>
+						<span></span>
+						<span style="background-image: url('{{ image.path }}');"></span>
+					</span>
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+		<!-- <span class="mySlides w3-animate-left">
+			<span style="background-image: url(assets/images/01.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/01.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/02.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/02.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/03.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/03.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/04.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/04.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/05.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/05.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/06.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/06.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/07.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/07.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/08.png)"></span>
+			<span style="background-position: center bottom; top: unset; bottom: 5px"></span>
+			<span style="background-image: url(assets/images/08.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/09.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/09.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/10.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/10.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/11.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/11.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/12.png)"></span>
+			<span style="background-position: center bottom; top: unset; bottom: 5px"></span>
+			<span style="background-image: url(assets/images/12.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/13.png)"></span>
+			<span style="background-position: center bottom; top: unset; bottom: 5px"></span>
+			<span style="background-image: url(assets/images/13.png)"></span>
+		</span>
+		<span class="mySlides w3-animate-right">
+			<span style="background-image: url(assets/images/14.png)"></span>
+			<span></span>
+			<span style="background-image: url(assets/images/14.png)"></span>
+		</span> -->
 	</div>
-	<div class="tr">
-		<div class="td">
-			<div class="ShowOnBigScreen">
+	<script src="assets/js/slideshow.js"></script>
+	<div class="card">
+			<div class="showOnBigScreen">
 				<div class="table main">
 					<div class="tr" style="height: 30px"></div>
 					<div class="tr">
@@ -147,7 +155,7 @@ title:	Cicero Interactive
 					<div class="tr" style="height: 50px"></div>
 				</div>
 			</div>
-			<div class="ShowOnSmallScreen">
+			<div class="showOnSmallScreen">
 				<div class="table main">
 					<div class="tr" style="height: 30px"></div>
 					<div class="tr">
@@ -205,6 +213,5 @@ title:	Cicero Interactive
 					<div class="tr" style="height: 50px"></div>
 				</div>
 			</div>
-		</div>
 	</div>
-</div>
+</main>
