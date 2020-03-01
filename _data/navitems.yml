@@ -1,0 +1,17 @@
+- en: About
+  de: Über
+- en: Tools
+- en: Games
+  de: Spiele
+  dropdown:
+    - en: Latin Wars&#58; Call of Rupert
+      dest: games/lwcor.php
+    - en: French Invaders
+      dest: games/fi.php
+- en: News
+- en: Other Services
+  de: Andere Angebote
+  dropdown:
+    - en: Latinparadise (German only)
+      de: Lateinparadies
+      dest: https://lateinparadies.de.cool/
