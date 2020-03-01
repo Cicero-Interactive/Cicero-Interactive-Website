@@ -1,0 +1,6 @@
+- short: "en"
+  long: English
+  long_en: English
+- short: "de"
+  long: Deutsch
+  long_en: German
