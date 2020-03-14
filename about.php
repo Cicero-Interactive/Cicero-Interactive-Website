@@ -1,6 +1,7 @@
 ---
 layout: wrapper
 title: About
+nav_absolute: true
 ---
 
 <div class="table" style="width: 100%">

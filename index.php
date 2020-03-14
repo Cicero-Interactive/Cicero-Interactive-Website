@@ -1,6 +1,7 @@
 ---
 layout:	wrapper
 title:	Cicero Interactive
+nav_absolute: true
 ---
 
 {% assign page.galleries = site.data.galleries | process_galleries %}

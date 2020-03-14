@@ -1,6 +1,6 @@
 {% assign page.navitems =  site.data.navitems | process_navitems %}
 
-<nav>
+<nav {% if page.nav_absolute %} class="posAbsolute" {% endif %}>
     <div style="max-width: 2000px; margin: auto">
         <!-- Navbar for wider devices -->
         <ul class="showOnBigScreen">

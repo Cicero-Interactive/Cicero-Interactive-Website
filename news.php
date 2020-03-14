@@ -1,6 +1,7 @@
 ---
 layout: wrapper
 title: News
+nav_absolute: true
 ---
 
 <table style="width: 100%">
