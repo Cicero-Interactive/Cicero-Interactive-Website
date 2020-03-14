@@ -15,7 +15,7 @@
 			{% endif %}
 		</title>
 		<link rel="stylesheet" href="assets/css/stylesheet.css">
-		<link rel="icon" href="assets/images/favicon.ico">
+		<link rel="icon" href="assets/img/favicon.ico">
 		<script src="assets/js/jquery.js"></script>
 		<script src="assets/js/progress.js"></script>
 		<script src="assets/js/sidepnl.js"></script>

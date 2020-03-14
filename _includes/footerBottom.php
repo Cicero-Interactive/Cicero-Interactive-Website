@@ -11,7 +11,7 @@
                     </ul>
                     <span style="white-space: nowrap">© 2015-2019 Cicero Interactive</span>
                     <span class="ShowOnBigScreenInline" style="padding-left: 10px">
-                        <img src="assets/images/CILogo.png" style="height: 32px">
+                        <img src="assets/img/CILogo.png" style="height: 32px">
                     </span>
                 </div>
             </div>	

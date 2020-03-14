@@ -4,7 +4,7 @@
     <div style="max-width: 2000px; margin: auto">
         <!-- Navbar for wider devices -->
         <ul class="showOnBigScreen">
-            <li><a href="/"><div><img src="assets/images/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></div></a></li>
+            <li><a href="/"><div><img src="assets/img/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></div></a></li>
             {% for navitem in site.data.navitems %}
                 <li {% if navitem.dropdown %} class="dropdown" {% endif %}>
                     <a  {% if page.title == navitem.en %}
@@ -45,7 +45,7 @@
             <?php ;} ?>
         </ul>
         <ul class="showOnSmallScreen">
-            <li><a href="./"><img src="assets/images/CILogo.png" style="height: 50px"></a></li>
+            <li><a href="./"><img src="assets/img/CILogo.png" style="height: 50px"></a></li>
             <li style="float:right"><a onclick="openNav()" style="font-size: 30px; padding: 7px 22px">&#9776;</a></li>
         </ul>
     </div>

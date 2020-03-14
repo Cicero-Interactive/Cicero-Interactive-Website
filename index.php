@@ -24,74 +24,74 @@ title:	Cicero Interactive
 			{% endif %}
 		{% endfor %}
 		<!-- <span class="mySlides w3-animate-left">
-			<span style="background-image: url(assets/images/01.png)"></span>
+			<span style="background-image: url(assets/img/01.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/01.png)"></span>
+			<span style="background-image: url(assets/img/01.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/02.png)"></span>
+			<span style="background-image: url(assets/img/02.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/02.png)"></span>
+			<span style="background-image: url(assets/img/02.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/03.png)"></span>
+			<span style="background-image: url(assets/img/03.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/03.png)"></span>
+			<span style="background-image: url(assets/img/03.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/04.png)"></span>
+			<span style="background-image: url(assets/img/04.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/04.png)"></span>
+			<span style="background-image: url(assets/img/04.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/05.png)"></span>
+			<span style="background-image: url(assets/img/05.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/05.png)"></span>
+			<span style="background-image: url(assets/img/05.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/06.png)"></span>
+			<span style="background-image: url(assets/img/06.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/06.png)"></span>
+			<span style="background-image: url(assets/img/06.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/07.png)"></span>
+			<span style="background-image: url(assets/img/07.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/07.png)"></span>
+			<span style="background-image: url(assets/img/07.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/08.png)"></span>
+			<span style="background-image: url(assets/img/08.png)"></span>
 			<span style="background-position: center bottom; top: unset; bottom: 5px"></span>
-			<span style="background-image: url(assets/images/08.png)"></span>
+			<span style="background-image: url(assets/img/08.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/09.png)"></span>
+			<span style="background-image: url(assets/img/09.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/09.png)"></span>
+			<span style="background-image: url(assets/img/09.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/10.png)"></span>
+			<span style="background-image: url(assets/img/10.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/10.png)"></span>
+			<span style="background-image: url(assets/img/10.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/11.png)"></span>
+			<span style="background-image: url(assets/img/11.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/11.png)"></span>
+			<span style="background-image: url(assets/img/11.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/12.png)"></span>
+			<span style="background-image: url(assets/img/12.png)"></span>
 			<span style="background-position: center bottom; top: unset; bottom: 5px"></span>
-			<span style="background-image: url(assets/images/12.png)"></span>
+			<span style="background-image: url(assets/img/12.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/13.png)"></span>
+			<span style="background-image: url(assets/img/13.png)"></span>
 			<span style="background-position: center bottom; top: unset; bottom: 5px"></span>
-			<span style="background-image: url(assets/images/13.png)"></span>
+			<span style="background-image: url(assets/img/13.png)"></span>
 		</span>
 		<span class="mySlides w3-animate-right">
-			<span style="background-image: url(assets/images/14.png)"></span>
+			<span style="background-image: url(assets/img/14.png)"></span>
 			<span></span>
-			<span style="background-image: url(assets/images/14.png)"></span>
+			<span style="background-image: url(assets/img/14.png)"></span>
 		</span> -->
 	</div>
 	<script src="assets/js/slideshow.js"></script>
@@ -121,7 +121,7 @@ title:	Cicero Interactive
 									<font size="6" color="#ddd">News</font>
 									<a href="news/20190424.php">
 										<div style="border-top: none">
-											<div><div style="background-image: url(assets/images/01.png)"></div></div>
+											<div><div style="background-image: url(assets/img/01.png)"></div></div>
 											<div>
 												<div>Our Website - Completely Redesigned!</div>
 												<div>April 24, 2019</div>
@@ -130,7 +130,7 @@ title:	Cicero Interactive
 									</a>
 									<a href="news/20190414.php">
 										<div>
-											<div><div style="background-image: url(assets/images/news/LPResponsive.png)"></div></div>
+											<div><div style="background-image: url(assets/img/news/LPResponsive.png)"></div></div>
 											<div id="newsText">
 												<div>New Responsive Design for the Lateinparadies</div>
 												<div>April 14, 2019</div>
@@ -139,7 +139,7 @@ title:	Cicero Interactive
 									</a>
 									<a href="news/20190203.php">
 										<div>
-											<div><div style="background-image: url(assets/images/scrCIN.png)"></div></div>
+											<div><div style="background-image: url(assets/img/scrCIN.png)"></div></div>
 											<div>
 												<div>Cicero Interactive News v1.0.2 Released</div>
 												<div>February 3, 2019</div>
@@ -180,7 +180,7 @@ title:	Cicero Interactive
 								<font size="6" color="#ddd">News</font>
 								<a>
 									<div style="border-top: none">
-										<div><div style="background-image: url(assets/images/01.png)"></div></div>
+										<div><div style="background-image: url(assets/img/01.png)"></div></div>
 										<div>
 											<div>Our Website - Completely Redesigned!</div>
 											<div>April 24, 2019</div>
@@ -189,7 +189,7 @@ title:	Cicero Interactive
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/images/news/LPResponsive.png)"></div></div>
+										<div><div style="background-image: url(assets/img/news/LPResponsive.png)"></div></div>
 										<div id="newsText">
 											<div>New Responsive Design for the Lateinparadies</div>
 											<div>April 14, 2019</div>
@@ -198,7 +198,7 @@ title:	Cicero Interactive
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/images/scrCIN.png)"></div></div>
+										<div><div style="background-image: url(assets/img/scrCIN.png)"></div></div>
 										<div>
 											<div>Cicero Interactive News v1.0.2 Released</div>
 											<div>February 3, 2019</div>

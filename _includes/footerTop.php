@@ -14,10 +14,10 @@
                         </tr>
                     </table>
                     <div class="socialMedia" style="float: right">
-                        <a href="https://www.facebook.com/Cicero-Interactive-383997388857355/"><img src="assets/images/icoFacebook.png"></a>
-                        <a href="https://www.instagram.com/cicerointeractive"><img src="assets/images/icoInstagram.png"></a>
-                        <a href="https://twitter.com/CiceroInteract1"><img src="assets/images/icoTwitter.png"></a>
-                        <a href="https://www.youtube.com/channel/UClcVo7cNIyMMboj1uPB6MPA"><img src="assets/images/icoYoutube.png"></a>
+                        <a href="https://www.facebook.com/Cicero-Interactive-383997388857355/"><img src="assets/img/icoFacebook.png"></a>
+                        <a href="https://www.instagram.com/cicerointeractive"><img src="assets/img/icoInstagram.png"></a>
+                        <a href="https://twitter.com/CiceroInteract1"><img src="assets/img/icoTwitter.png"></a>
+                        <a href="https://www.youtube.com/channel/UClcVo7cNIyMMboj1uPB6MPA"><img src="assets/img/icoYoutube.png"></a>
                     </div>
                 </table>
             </t>
@@ -38,10 +38,10 @@
             <div class="td" style="padding: 10px 10% 30px 10%">
                 <div style="max-width: 1200px; margin: auto; text-align: center">
                     <div class="socialMedia">
-                        <a href="https://www.facebook.com/Cicero-Interactive-383997388857355/"><img src="assets/images/icoFacebook.png"></a>
-                        <a href="https://www.instagram.com/cicerointeractive"><img src="assets/images/icoInstagram.png"></a>
-                        <a href="https://twitter.com/CiceroInteract1"><img src="assets/images/icoTwitter.png"></a>
-                        <a href="https://www.youtube.com/channel/UClcVo7cNIyMMboj1uPB6MPA"><img src="assets/images/icoYoutube.png"></a>
+                        <a href="https://www.facebook.com/Cicero-Interactive-383997388857355/"><img src="assets/img/icoFacebook.png"></a>
+                        <a href="https://www.instagram.com/cicerointeractive"><img src="assets/img/icoInstagram.png"></a>
+                        <a href="https://twitter.com/CiceroInteract1"><img src="assets/img/icoTwitter.png"></a>
+                        <a href="https://www.youtube.com/channel/UClcVo7cNIyMMboj1uPB6MPA"><img src="assets/img/icoYoutube.png"></a>
                     </div>
                 </div>
             </div>

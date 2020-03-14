@@ -12,8 +12,8 @@ title: About
 			</div>
 			<div class="topImage">
 				<div>
-					<div style="background-image: url(assets/images/02.png)"></div>
-					<div style="background-image: url(assets/images/02.png)"></div>
+					<div style="background-image: url(assets/img/02.png)"></div>
+					<div style="background-image: url(assets/img/02.png)"></div>
 					<div><div style="max-width: 1060px; margin: auto">About us</div></div>
 				</div>
 			</div>
@@ -44,7 +44,7 @@ title: About
 							<div class="members">
 								<a href="mailto:burnerjulian@gmail.com">
 									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
+										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
 										<div>
 											<div>Julian Burner</div>
 											<div>Founder, CEO, Head of Development, Programmer, Web Designer</div>
@@ -53,7 +53,7 @@ title: About
 								</a>
 								<a href="mailto:f.wilhelm793@gmx.de">
 									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
+										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
 										<div id="newsText">
 											<div>Fabian Wilhelm</div>
 											<div>Art Supervisor & -Contributor, Storywriter</div>
@@ -62,7 +62,7 @@ title: About
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
+										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
 										<div>
 											<div>Bastian Schmid</div>
 											<div>Art Contributor</div>
@@ -71,7 +71,7 @@ title: About
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
+										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
 										<div>
 											<div>Erik P.</div>
 											<div>Sound Supervisor & -Contributor</div>
@@ -80,7 +80,7 @@ title: About
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
+										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
 										<div>
 											<div>Leo V.</div>
 											<div>Sound Contributor</div>
@@ -89,7 +89,7 @@ title: About
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
+										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
 										<div>
 											<div>Gerhard Priller</div>
 											<div>Storywriter</div>
