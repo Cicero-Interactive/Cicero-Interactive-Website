@@ -8,7 +8,7 @@
 	</head>
 	
 	<body>
-		<div class="table" style="width: 100%">
+		<table border="0" align="center">
 			<tr>
 				<td height="540" colspan="3" valign="top">
 					<br><br><br><br><br>

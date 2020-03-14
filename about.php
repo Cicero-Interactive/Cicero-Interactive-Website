@@ -1,107 +1,129 @@
----
-layout: wrapper
-title: About
----
+<?php
+	session_start();
+	$active = "about";
+	$page = basename($_SERVER['PHP_SELF']);
+?>
 
-<div class="table" style="width: 100%">
-	<tr>
-		<td>
-			<div class="linear-progress" id="Progressbar">
-				<div class="progBar bar1"></div>
-				<div class="progBar bar2"></div>
-			</div>
-			<div class="topImage">
-				<div>
-					<div style="background-image: url(assets/images/02.png)"></div>
-					<div style="background-image: url(assets/images/02.png)"></div>
-					<div><div style="max-width: 1060px; margin: auto">About us</div></div>
-				</div>
-			</div>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			<div class="table main">
-				<div style="max-width: 1100px; margin: auto">
-					<div class="row" style="height: 30px"></div>
-					<div class="row">
-						<div class="cell" style="padding: 0px 5% 0px 5%">
-							<font size="6" color="#ddd">General Information</font>
-							<br>
-							<div>
-								Who is Cicero Interactive, you may ask? Well, we are the developing team known for our Romans vs. French games, founded by Julian Burner in 2015, when he first started with developing small useful windows tools.<br>
-								One to two years later, as this was getting boring, he decided to start making games. Some of his friends - espacially one called Friedl - helped him a lot with inventing creative stories, and due to some "Romans against French" fights they had back in school, the ideas of Latin Wars and French Invaders were born.<br><br>
-								Our first  project was a 2D space game inspired by '90s titles but with cutting-edge graphics and innovative features. Now, however, we're working on Latin Wars: Call of Rupert, a real-time strategy game and first part in a planned series of three games. <br><br>
-								Through the stars, our dream is coming true, step by step.<br>
-								New ideas, passion, tenacity and the desire to prove to everyone that anyone who has a dream can make it happen.
-							</div>
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>About | Cicero Interactive</title>
+		<link rel="stylesheet" href="css/w3.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="icon" type="image/png" href="images/favicon.ico">
+		<script src="js/sidepnl.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=0.70">
+		<meta name="theme-color" content="black">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta charset="utf-8">
+	</head>
+	
+	<body>
+		<table style="width: 100%">
+			<tr>
+				<td>
+					<?php include('components/lvl1/nav.php'); ?>
+					
+					<div class="topImage">
+						<div>
+							<div style="background-image: url(images/02.png)"></div>
+							<div style="background-image: url(images/02.png)"></div>
+							<div><div style="max-width: 1060px; margin: auto">About us</div></div>
 						</div>
 					</div>
-					<div class="row" style="height: 50px"></div>
-					<div class="row">
-						<div class="cell" style="padding: 0px 5% 0px 5%">
-							<font size="6" color="#ddd">Members</font>
-							<div class="members">
-								<a href="mailto:burnerjulian@gmail.com">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="table main">
+						<div style="max-width: 1100px; margin: auto">
+							<div class="row" style="height: 30px"></div>
+							<div class="row">
+								<div class="cell" style="padding: 0px 5% 0px 5%">
+									<font size="6" color="#ddd">General Information</font>
+									<br>
 									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
-										<div>
-											<div>Julian Burner</div>
-											<div>Founder, CEO, Head of Development, Programmer, Web Designer</div>
-										</div>
+										Who is Cicero Interactive, you may ask? Well, we are the developing team known for our Romans vs. French games, founded by Julian Burner in 2015, when he first started with developing small useful windows tools.<br>
+										One to two years later, as this was getting boring, he decided to start making games. Some of his friends - espacially one called Friedl - helped him a lot with inventing creative stories, and due to some "Romans against French" fights they had back in school, the ideas of Latin Wars and French Invaders were born.<br><br>
+										Our first  project was a 2D space game inspired by '90s titles but with cutting-edge graphics and innovative features. Now, however, we're working on Latin Wars: Call of Rupert, a real-time strategy game and first part in a planned series of three games. <br><br>
+										Through the stars, our dream is coming true, step by step.<br>
+										New ideas, passion, tenacity and the desire to prove to everyone that anyone who has a dream can make it happen.
 									</div>
-								</a>
-								<a href="mailto:f.wilhelm793@gmx.de">
-									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
-										<div id="newsText">
-											<div>Fabian Wilhelm</div>
-											<div>Art Supervisor & -Contributor, Storywriter</div>
-										</div>
-									</div>
-								</a>
-								<a>
-									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
-										<div>
-											<div>Bastian Schmid</div>
-											<div>Art Contributor</div>
-										</div>
-									</div>
-								</a>
-								<a>
-									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
-										<div>
-											<div>Erik P.</div>
-											<div>Sound Supervisor & -Contributor</div>
-										</div>
-									</div>
-								</a>
-								<a>
-									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
-										<div>
-											<div>Leo V.</div>
-											<div>Sound Contributor</div>
-										</div>
-									</div>
-								</a>
-								<a>
-									<div>
-										<div><div style="background-image: url(assets/images/members/empty.png)"></div></div>
-										<div>
-											<div>Gerhard Priller</div>
-											<div>Storywriter</div>
-										</div>
-									</div>
-								</a>
+								</div>
 							</div>
+							<div class="row" style="height: 50px"></div>
+							<div class="row">
+								<div class="cell" style="padding: 0px 5% 0px 5%">
+									<font size="6" color="#ddd">Members</font>
+									<div class="members">
+										<a>
+											<div>
+												<div><div style="background-image: url(images/members/empty.png)"></div></div>
+												<div>
+													<div>Julian Burner</div>
+													<div>Founder, CEO, Head of Development, Programmer, Web Designer</div>
+												</div>
+											</div>
+										</a>
+										<a>
+											<div>
+												<div><div style="background-image: url(images/members/empty.png)"></div></div>
+												<div id="newsText">
+													<div>Fabian Wilhelm</div>
+													<div>Art Supervisor & -Contributor, Storywriter</div>
+												</div>
+											</div>
+										</a>
+										<a>
+											<div>
+												<div><div style="background-image: url(images/members/empty.png)"></div></div>
+												<div>
+													<div>Bastian Schmid</div>
+													<div>Art Contributor</div>
+												</div>
+											</div>
+										</a>
+										<a>
+											<div>
+												<div><div style="background-image: url(images/members/empty.png)"></div></div>
+												<div>
+													<div>Erik P.</div>
+													<div>Sound Supervisor & -Contributor</div>
+												</div>
+											</div>
+										</a>
+										<a>
+											<div>
+												<div><div style="background-image: url(images/members/empty.png)"></div></div>
+												<div>
+													<div>Leo V.</div>
+													<div>Sound Contributor</div>
+												</div>
+											</div>
+										</a>
+										<a>
+											<div>
+												<div><div style="background-image: url(images/members/empty.png)"></div></div>
+												<div>
+													<div>Gerhard Priller</div>
+													<div>Storywriter</div>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="row" style="height: 50px"></div>
 						</div>
 					</div>
-					<div class="row" style="height: 50px"></div>
-				</div>
-			</div>
-		</td>
-	</tr>
-</table>
+					
+					<?php 
+						include('components/lvl1/footerTop.php');
+						include('components/lvl1/footerBottom.php');
+					?>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
