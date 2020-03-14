@@ -3,7 +3,7 @@
 	<head>
 		<title>Impressum | Cicero Interactive</title>
 		<link rel="stylesheet" href="stylesheet.css">
-		<link rel="icon" type="image/png" href="./images/favicon.ico">
+		<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	</head>
 	
@@ -12,12 +12,12 @@
 			<tr>
 				<td height="540" colspan="3" valign="top">
 					<br><br><br><br><br>
-					<img src="images/menu.png" usemap="#Map">
+					<img src="assets/img/menu.png" usemap="#Map">
 				</td>
 			</tr>
 			<tr>
 				<td align="center" valign="top">
-					<img src="images/Impressum.png">
+					<img src="assets/img/Impressum.png">
 					<font color="#999999">
 						<br><br>
 						<b>
@@ -70,8 +70,8 @@
 				</td>
 				<!--<td colspan="2">
 					<br>
-					<a href="https://www.facebook.com/starshiftvideogame?notif_t=page_fan"><img src="images/fb_icon.png" alt="fb" height="38" width="150"></a><br>
-					<a href="http://www.indiedb.com/games/star-shift"><img src="images/iDB_icon.png" alt="yt" height="38" width="150"></a><br>
+					<a href="https://www.facebook.com/starshiftvideogame?notif_t=page_fan"><img src="assets/img/fb_icon.png" alt="fb" height="38" width="150"></a><br>
+					<a href="http://www.indiedb.com/games/star-shift"><img src="assets/img/iDB_icon.png" alt="yt" height="38" width="150"></a><br>
 				</td>-->
 			</tr>
 		</table>

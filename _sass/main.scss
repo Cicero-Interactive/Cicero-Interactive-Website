@@ -1,7 +1,7 @@
 body {
     color: #999;
     background-color: rgb(4, 10, 15);
-    background-image: url(images/bg.png);
+    background-image: url(assets/img/bg.png);
     background-repeat: repeat;
     font-size: 12px;
     word-break: break-word;
@@ -43,7 +43,7 @@ nav {
     z-index: 1;
     top: 0;
     position: absolute;
-    background-image: url(../images/bgNav.png);
+    background-image: url(assets/img/bgNav.png);
     background-size: cover;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
     background-color: rgba(30, 30, 30, 0.3);
@@ -183,10 +183,10 @@ nav {
     overflow: hidden;
 
     >span {
-        background-image: url(../images/bg.png);
+        background-image: url(assets/img/bg.png);
         
         &:nth-child(-n+14) >span:nth-child(2) {                    
-            background-image: url(../images/hdlFI.png);
+            background-image: url(assets/img/hdlFI.png);
         }
 
         >span {
@@ -229,7 +229,7 @@ nav {
     overflow: hidden;
 
     >div {
-        background-image: url(../images/bg.png);
+        background-image: url(assets/img/bg.png);
         background-attachment: fixed;
 
         >div {
@@ -605,6 +605,6 @@ select:-moz-focusring {
 }
 @media only screen and (max-width: 600px) {
     .slideshow span:nth-child(-n+14) >span:nth-child(2) {
-        background-image: url(../images/hdlFIWrapped.png);
+        background-image: url(assets/img/hdlFIWrapped.png);
     }
 }

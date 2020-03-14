@@ -7,12 +7,12 @@ title: Bug Report
 	<tr>
 		<td height="540" colspan="3" valign="top">
 			<br><br><br><br><br>
-			<div align="center"><img src="images/menu.png" usemap="#Map"></div>
+			<div align="center"><img src="assets/img/menu.png" usemap="#Map"></div>
 		</td>
 	</tr>
 	<tr>
 		<td width="100%" valign="top">
-			<img src="images/Bug-Report.png">
+			<img src="assets/img/Bug-Report.png">
 			<br><br><br>
 			<b>
 				You found a bug in our software? Sorry for the inconveniences,<br>
