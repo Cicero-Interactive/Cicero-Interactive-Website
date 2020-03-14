@@ -40,10 +40,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#CiceroInteractiveNews">
-							<img src="assets/img/btn_download_normal.png" 
-							onmouseover="this.src='assets/img/btn_download_hover.png'"
-							onmouseout="this.src='assets/img/btn_download_normal.png'"
-							onmousedown="this.src='assets/img/btn_download_press.png'"
+							<img src="assets/img/btnDownload.png" 
+							onmouseover="this.src='assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='assets/img/btnDownload.png'"
+							onmousedown="this.src='assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -78,10 +78,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#CiceroInteractiveUpdateService">
-							<img src="assets/img/btn_download_normal.png" 
-							onmouseover="this.src='assets/img/btn_download_hover.png'"
-							onmouseout="this.src='assets/img/btn_download_normal.png'"
-							onmousedown="this.src='assets/img/btn_download_press.png'"
+							<img src="assets/img/btnDownload.png" 
+							onmouseover="this.src='assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='assets/img/btnDownload.png'"
+							onmousedown="this.src='assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -119,10 +119,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#CicerosKleinerMathe-Trainer">
-							<img src="assets/img/btn_download_normal.png" 
-							onmouseover="this.src='assets/img/btn_download_hover.png'"
-							onmouseout="this.src='assets/img/btn_download_normal.png'"
-							onmousedown="this.src='assets/img/btn_download_press.png'"
+							<img src="assets/img/btnDownload.png" 
+							onmouseover="this.src='assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='assets/img/btnDownload.png'"
+							onmousedown="this.src='assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -160,10 +160,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#CiceroZufallsgenerator">
-							<img src="assets/img/btn_download_normal.png" 
-							onmouseover="this.src='assets/img/btn_download_hover.png'"
-							onmouseout="this.src='assets/img/btn_download_normal.png'"
-							onmousedown="this.src='assets/img/btn_download_press.png'"
+							<img src="assets/img/btnDownload.png" 
+							onmouseover="this.src='assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='assets/img/btnDownload.png'"
+							onmousedown="this.src='assets/img/btnDownloadPress.png'"
 							/>
 					</a>
 					</div>
@@ -196,10 +196,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#MediBurnPlayer">
-							<img src="assets/img/btn_download_normal.png" 
-							onmouseover="this.src='assets/img/btn_download_hover.png'"
-							onmouseout="this.src='assets/img/btn_download_normal.png'"
-							onmousedown="this.src='assets/img/btn_download_press.png'"
+							<img src="assets/img/btnDownload.png" 
+							onmouseover="this.src='assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='assets/img/btnDownload.png'"
+							onmousedown="this.src='assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -232,10 +232,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#PictureViewer">
-							<img src="assets/img/btn_download_normal.png" 
-							onmouseover="this.src='assets/img/btn_download_hover.png'"
-							onmouseout="this.src='assets/img/btn_download_normal.png'"
-							onmousedown="this.src='assets/img/btn_download_press.png'"
+							<img src="assets/img/btnDownload.png" 
+							onmouseover="this.src='assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='assets/img/btnDownload.png'"
+							onmousedown="this.src='assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>

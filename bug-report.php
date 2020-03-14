@@ -12,7 +12,7 @@ title: Bug Report
 	</tr>
 	<tr>
 		<td width="100%" valign="top">
-			<img src="assets/img/Bug-Report.png">
+			<img src="assets/img/hdrBug-Report.png">
 			<br><br><br>
 			<b>
 				You found a bug in our software? Sorry for the inconveniences,<br>

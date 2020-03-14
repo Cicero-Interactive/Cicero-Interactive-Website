@@ -20,15 +20,15 @@
 		<!--French Invaders-->
 			<tr id="FrenchInvaders">
 				<td width="60%" valign="top">
-					<img src="assets/img/FrenchInvadersLogo.png" height="180"><br><br>
+					<img src="assets/img/hdlFI.png" height="100"><br><br>
 					<iframe allowfullscreen="" height="320" frameborder="0" width="570" src="https://www.youtube.com/embed/9AACo-IGNsQ"></iframe>
 					<br><br>
 					<div align="center">			
 						<a href="downloads.html#FrenchInvaders">
-							<img src="assets/img/btn_download_normal.png" 
-							onmouseover="this.src='assets/img/btn_download_hover.png'"
-							onmouseout="this.src='assets/img/btn_download_normal.png'"
-							onmousedown="this.src='assets/img/btn_download_press.png'"
+							<img src="assets/img/btnDownload.png"
+							onmouseover="this.src='assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='assets/img/btnDownload.png'"
+							onmousedown="this.src='assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -48,8 +48,8 @@
 					</div>
 				<br>
 				<div>
-					<a href="assets/img/01.png" target="new">
-						<img src="assets/img/01.png" width="100%" height="100%">
+					<a href="assets/img/scrFI.png" target="new">
+						<img src="assets/img/scrFI.png" width="100%" height="100%">
 					</a>
 				</div>
 				</td>
@@ -58,21 +58,21 @@
 			</tr>
 			<tr>
 				<td>
-				<br><br><br><br><br><br><br><br><br><br>
+					<br><br><br><br><br><br><br><br><br><br>
 				</td>
 			</tr> 
 		<!--Burner War-->
 			<tr id="BurnerWar">
 				<td width="60%" valign="top">
-					<img src="assets/img/Burner War.png" height="74"><br><br>
+					<img src="assets/img/scrBW.png" height="74"><br><br>
 					<iframe allowfullscreen="" height="320" frameborder="0" width="570" src="https://www.youtube.com/embed/QT6ufav3fxo"></iframe>
 					<br><br>
 					<div align="center">			
 						<a href="downloads.html#BurnerWar">
-							<img src="assets/img/btn_download_normal.png" 
-							onmouseover="this.src='assets/img/btn_download_hover.png'"
-							onmouseout="this.src='assets/img/btn_download_normal.png'"
-							onmousedown="this.src='assets/img/btn_download_press.png'"
+							<img src="assets/img/btnDownload.png" 
+							onmouseover="this.src='assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='assets/img/btnDownload.png'"
+							onmousedown="this.src='assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -91,8 +91,8 @@
 					</div>
 					<br>
 					<div>
-						<a href="assets/img/BurnerWar_Screenshot.png" target="new">
-							<img src="assets/img/BurnerWar_Screenshot.png" width="100%" height="100%">
+						<a href="assets/img/scrBW.png" target="new">
+							<img src="assets/img/scrBW.png" width="100%" height="100%">
 						</a>
 					</div>  
 				</td>
@@ -132,14 +132,3 @@
 				</td>-->
 			</tr>
 		</table>
-		
-		<!--Navigation links-->
-		<map name="Map" id="Map">
-			<area shape="rect" coords="260,53,401,131" href="./">
-			<area shape="rect" coords="405,53,557,131" href="tools.html">
-			<area shape="rect" coords="559,53,710,131" href="games.html">
-			<area shape="rect" coords="713,53,860,131" href="downloads.html">
-			<area shape="rect" coords="866,53,1010,131" href="contacts.html">
-		</map>	
-	</body>
-</html>
