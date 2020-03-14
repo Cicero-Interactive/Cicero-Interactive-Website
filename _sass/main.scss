@@ -571,13 +571,13 @@ select:-moz-focusring {
 
 
 
-.ShowOnSmallScreen {
+.showOnSmallScreen {
     display: none;
 }
-.ShowOnBigScreen {
+.showOnBigScreen {
     display: block;
 }
-.ShowOnBigScreenInline {
+.showOnBigScreenInline {
     display: inline-block;
 }
 
@@ -592,10 +592,10 @@ select:-moz-focusring {
 	}
 }
 @media only screen and (max-width: 900px) {
-    .ShowOnSmallScreen {
+    .showOnSmallScreen {
         display: block;
     }
-    .ShowOnBigScreen, .ShowOnBigScreenInline {
+    .showOnBigScreen, .showOnBigScreenInline {
         display: none;
     }
 

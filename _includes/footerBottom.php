@@ -10,7 +10,7 @@
                         <li><a href="imprint.php">Imprint</a></li>
                     </ul>
                     <span style="white-space: nowrap">© 2015-2019 Cicero Interactive</span>
-                    <span class="ShowOnBigScreenInline" style="padding-left: 10px">
+                    <span class="showOnBigScreenInline" style="padding-left: 10px">
                         <img src="assets/img/CILogo.png" style="height: 32px">
                     </span>
                 </div>

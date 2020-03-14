@@ -1,4 +1,4 @@
-<div class="ShowOnBigScreen">
+<div class="showOnBigScreen">
     <div class="table footerTop">
         <div class="tr">   
             <div class="td" style="padding: 30px 10% 30px 10%">
@@ -24,7 +24,7 @@
         </div>
     </div>
 </div>
-<div class="ShowOnSmallScreen">
+<div class="showOnSmallScreen">
     <div class="table footerTop">
         <div class="tr">   
             <div class="td" style="padding: 30px 10% 10px 10%">
