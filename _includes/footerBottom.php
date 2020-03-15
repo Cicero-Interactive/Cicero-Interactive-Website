@@ -9,10 +9,10 @@
                         <li><a href="terms.php">Terms of use</a></li>
                         <li><a href="imprint.php">Imprint</a></li>
                     </ul>
-                    <span style="white-space: nowrap">© 2015-2019 Cicero Interactive</span>
-                    <span class="showOnBigScreenInline" style="padding-left: 10px">
-                        <img src="assets/img/CILogo.png" style="height: 32px">
-                    </span>
+                    <div class="showOnBigScreenInline">
+                        <span style="white-space: nowrap">© 2015-2019 Cicero Interactive</span>
+                        <img src="assets/img/CILogo.png" style="height: 32px; padding-left: 10px;">
+                    </div>
                 </div>
             </div>	
         </div>
