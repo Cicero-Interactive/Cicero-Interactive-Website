@@ -25,12 +25,12 @@
             <li class="dropdown dropdown--lang" style="float:right">
                 <a><img src="assets/img/icoGlobe.png"></a>
                 <div class="dropdown-content">
-                    {% for lang in site.data.languages %}
+                    {% for lang in site.languages %}
                         <a 
                             {% if page.lang == lang %}
                                 class="active"
                             {% endif %}
-                            href="{{ lang.dest }}">{{ lang.long_en }}
+                            href="{{ lang.dest }}">{{ site.languageNames[lang] }}
                         </a>
                     {% endfor %}
                 </div>

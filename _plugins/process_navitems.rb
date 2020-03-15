@@ -5,12 +5,12 @@ module Process_navitems
 		if navitems
 			for navitem in navitems do
 				# Assign missing names
-				for lang in site.data["languages"]
+				for lang in site.config["languages"]
 					if navitem["en"] == nil
 						navitem["en"] = "undefined"
 					end
-					if navitem[lang["short"]] == nil
-						navitem[lang["short"]] = navitem["en"]
+					if navitem[lang] == nil
+						navitem[lang] = navitem["en"]
 					end
 				end
 
@@ -23,12 +23,12 @@ module Process_navitems
 				if navitem["dropdown"]
 					for dropdownitem in navitem["dropdown"]
 						# Assign missing names
-						for lang in site.data["languages"]
+						for lang in site.config["languages"]
 							if dropdownitem["en"] == nil
 								dropdownitem["en"] = "undefined"
 							end
-							if dropdownitem[lang["short"]] == nil
-								dropdownitem[lang["short"]] = dropdownitem["en"]
+							if dropdownitem[lang] == nil
+								dropdownitem[lang] = dropdownitem["en"]
 							end
 						end
 
