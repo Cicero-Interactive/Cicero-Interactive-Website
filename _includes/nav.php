@@ -22,6 +22,19 @@
                     {% endif %}
                 </li>
             {% endfor %}
+            <li class="dropdown dropdown--lang" style="float:right">
+                <a><img src="assets/img/icoGlobe.png"></a>
+                <div class="dropdown-content">
+                    {% for lang in site.data.languages %}
+                        <a 
+                            {% if page.lang == lang %}
+                                class="active"
+                            {% endif %}
+                            href="{{ lang.dest }}">{{ lang.long_en }}
+                        </a>
+                    {% endfor %}
+                </div>
+            </li>
             <?php if (!isset($_SESSION["username"])) { ?>
                 <li style="float:right"><a {% if page.title == "Register" %}class="active"{% endif %} href="register.php">Register</a></li>
                 <li style="float:right"><a {% if page.title == "Log In" %}class="active"{% endif %} href="login.php?redirect=.{{page.url}}">Log In</a></li>
