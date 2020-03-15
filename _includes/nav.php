@@ -30,7 +30,7 @@
                             {% if page.lang == lang %}
                                 class="active"
                             {% endif %}
-                            href="{{ lang.dest }}">{{ site.languageNames[lang] }}
+                            href="{{ lang.dest }}"><img src="assets/img/ico{{ lang }}.png">{{ site.languageNames[lang] }}
                         </a>
                     {% endfor %}
                 </div>
