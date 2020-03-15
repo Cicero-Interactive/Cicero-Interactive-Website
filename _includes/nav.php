@@ -4,7 +4,7 @@
     <div style="max-width: 2000px; margin: auto">
         <!-- Navbar for wider devices -->
         <ul class="showOnBigScreen">
-            <li><a href="/"><div><img src="assets/img/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></div></a></li>
+            <li><a href="/"><img src="assets/img/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></a></li>
             {% for navitem in site.data.navitems %}
                 <li {% if navitem.dropdown %} class="dropdown" {% endif %}>
                     <a  {% if page.title == navitem.en %}
@@ -28,7 +28,7 @@
             <?php ;} else { ?>
                 <li style="float:right"><a {% if page.title == "Register" %}class="active"{% endif %} href="?logout=1">Log Out</a></li>
                 <li class="dropdown" style="float:right">
-                    <a class="dropbtn">My Account ▾</a>
+                    <a class="dropdown">My Account ▾</a>
                     <div class="dropdown-content">
                         <div style="padding: 10px; font-size: 13px; display: table; margin: 10px">
                             <div style="height: 50px; width: 50px; background-color: #bbb; border-radius: 50%; display: table-cell; font-size: 25px; color: #333; text-align: center; vertical-align: middle">
@@ -45,8 +45,8 @@
             <?php ;} ?>
         </ul>
         <ul class="showOnSmallScreen">
-            <li><a href="./"><img src="assets/img/CILogo.png" style="height: 50px"></a></li>
-            <li style="float:right"><a onclick="openNav()" style="font-size: 30px; padding: 7px 22px">&#9776;</a></li>
+            <li><a href="./"><img src="assets/img/CILogo.png"></a></li>
+            <li style="float:right"><a class="btnHamburger" onclick="openNav()">&#9776;</a></li>
         </ul>
     </div>
 
