@@ -28,9 +28,13 @@
 	</head>
 
 	<body>
-		{% include nav.php %}
+		<header>
+			{% include nav.php %}
+		</header>
 		{{ content }}
-		{% include footerTop.php %}
-		{% include footerBottom.php %}
+		<footer>
+			{% include footerTop.php %}
+			{% include footerBottom.php %}
+		</footer>
 	</body>
 </html>

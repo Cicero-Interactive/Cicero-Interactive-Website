@@ -1,4 +1,4 @@
-<div class="table footerBottom">
+<div class="table footer footer--bottom">
     <div class="tr">
         <div class="td" style="padding: 15px 10% 15px 10%; color: #ddd">
             <div style="max-width: 1200px; margin: auto">
