@@ -93,6 +93,7 @@ h6 {
 //     }
 nav {
     width: 100%;
+    height: $nav_height;
     z-index: 100;
     top: 0;
     background-image: url('{{ site.baseurl_root }}/assets/img/bgNav.png');
