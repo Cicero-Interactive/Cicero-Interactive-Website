@@ -14,12 +14,15 @@ module Process_navitems
 					end
 				end
 
+				# Assign text matching current language
+				navitem["text"] = navitem[site.config["lang"]]
+
 				# Assign missing link
 				if navitem["dest"] == nil && navitem["dropdown"] == nil
-					navitem["dest"] = navitem["en"] + ".php"
+					navitem["dest"] = navitem["en"].downcase + ".php"
 				end
 
-				# Assign missing footnote numbers
+				# Process dropdown items
 				if navitem["dropdown"]
 					for dropdownitem in navitem["dropdown"]
 						# Assign missing names
