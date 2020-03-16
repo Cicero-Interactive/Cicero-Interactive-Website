@@ -95,7 +95,7 @@ nav_absolute: true
 			<span style="background-image: url(assets/img/14.png)"></span>
 		</span> -->
 	</div>
-	<script src="assets/js/slideshow.js"></script>
+	<script src="{{ site.baseurl_root }}/assets/js/slideshow.js"></script>
 
 	<div class="card" style="background-color: rgb(20, 25, 35); border-top: 1px solid rgba(175, 175, 175, 0.15);">
 		<div class="card__inner">
@@ -118,7 +118,7 @@ nav_absolute: true
 						{% for post in site.posts limit:3 %}
 						<a href="{{ post.url }}">
 							<div>
-								<div><div style="background-image: url('assets/img/news/{{ post.img }}')"></div></div>
+								<div><div style="background-image: url('{{ site.baseurl_root }}/assets/img/news/{{ post.img }}')"></div></div>
 								<div>
 									<div>{{ post.title }}</div>
 									<!-- <div>{{ post.excerpt }}</div> -->

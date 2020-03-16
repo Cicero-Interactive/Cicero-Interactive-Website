@@ -3,7 +3,7 @@
 	<head>
 		<title>Games | Cicero Interactive</title>
 		<link rel="stylesheet" href="stylesheet.css">
-		<link rel="icon" type="image/png" href="assets/img/favicon.ico">
+		<link rel="icon" type="image/png" href="{{ site.baseurl_root }}/assets/img/favicon.ico">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
@@ -13,22 +13,22 @@
 			<tr>
 				<td height="540" colspan="3" valign="top">
 					<br><br><br><br><br>
-					<img src="assets/img/menu.png" usemap="#Map">
+					<img src="{{ site.baseurl_root }}/assets/img/menu.png" usemap="#Map">
 				</td>
 			</tr>
 			
 	<!--French Invaders-->
 	<tr id="FrenchInvaders">
 		<td width="60%" valign="top">
-			<img src="assets/img/hdlFI.png" height="100"><br><br>
+			<img src="{{ site.baseurl_root }}/assets/img/hdlFI.png" height="100"><br><br>
 			<iframe allowfullscreen="" height="320" frameborder="0" width="570" src="https://www.youtube.com/embed/9AACo-IGNsQ"></iframe>
 			<br><br>
 			<div align="center">			
 				<a href="downloads.html#FrenchInvaders">
-					<img src="assets/img/btnDownload.png"
-					onmouseover="this.src='assets/img/btnDownloadHover.png'"
-					onmouseout="this.src='assets/img/btnDownload.png'"
-					onmousedown="this.src='assets/img/btnDownloadPress.png'"
+					<img src="{{ site.baseurl_root }}/assets/img/btnDownload.png"
+					onmouseover="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadHover.png'"
+					onmouseout="this.src='{{ site.baseurl_root }}/assets/img/btnDownload.png'"
+					onmousedown="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadPress.png'"
 					/>
 				</a>
 			</div>
@@ -48,8 +48,8 @@
 			</div>
 		<br>
 		<div>
-			<a href="assets/img/scrFI.png" target="new">
-				<img src="assets/img/scrFI.png" width="100%" height="100%">
+			<a href="{{ site.baseurl_root }}/assets/img/scrFI.png" target="new">
+				<img src="{{ site.baseurl_root }}/assets/img/scrFI.png" width="100%" height="100%">
 			</a>
 		</div>
 		</td>
@@ -64,15 +64,15 @@
 	<!--Burner War-->
 	<tr id="BurnerWar">
 		<td width="60%" valign="top">
-			<img src="assets/img/hdlBW.png" height="74"><br><br>
+			<img src="{{ site.baseurl_root }}/assets/img/hdlBW.png" height="74"><br><br>
 			<iframe allowfullscreen="" height="320" frameborder="0" width="570" src="https://www.youtube.com/embed/QT6ufav3fxo"></iframe>
 			<br><br>
 			<div align="center">			
 				<a href="downloads.html#BurnerWar">
-					<img src="assets/img/btnDownload.png" 
-					onmouseover="this.src='assets/img/btnDownloadHover.png'"
-					onmouseout="this.src='assets/img/btnDownload.png'"
-					onmousedown="this.src='assets/img/btnDownloadPress.png'"
+					<img src="{{ site.baseurl_root }}/assets/img/btnDownload.png" 
+					onmouseover="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadHover.png'"
+					onmouseout="this.src='{{ site.baseurl_root }}/assets/img/btnDownload.png'"
+					onmousedown="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadPress.png'"
 					/>
 				</a>
 			</div>
@@ -91,8 +91,8 @@
 			</div>
 			<br>
 			<div>
-				<a href="assets/img/scrBW.png" target="new">
-					<img src="assets/img/scrBW.png" width="100%" height="100%">
+				<a href="{{ site.baseurl_root }}/assets/img/scrBW.png" target="new">
+					<img src="{{ site.baseurl_root }}/assets/img/scrBW.png" width="100%" height="100%">
 				</a>
 			</div>  
 		</td>
@@ -108,7 +108,7 @@
 	<!--News-->
 	<tr>
 		<td class="news" colspan="2">
-			<p align="left"><img src="assets/img/news.png" alt="NEWS"></p>
+			<p align="left"><img src="{{ site.baseurl_root }}/assets/img/news.png" alt="NEWS"></p>
 		</td>
 	</tr>
 	<tr>
@@ -127,8 +127,8 @@
 		</td>
 		<!--<td colspan="2">
 			<br>
-			<a href="https://www.facebook.com/starshiftvideogame?notif_t=page_fan"><img src="assets/img/fb_icon.png" alt="fb" height="38" width="150"></a><br>
-			<a href="http://www.indiedb.com/games/star-shift"><img src="assets/img/iDB_icon.png" alt="yt" height="38" width="150"></a><br>
+			<a href="https://www.facebook.com/starshiftvideogame?notif_t=page_fan"><img src="{{ site.baseurl_root }}/assets/img/fb_icon.png" alt="fb" height="38" width="150"></a><br>
+			<a href="http://www.indiedb.com/games/star-shift"><img src="{{ site.baseurl_root }}/assets/img/iDB_icon.png" alt="yt" height="38" width="150"></a><br>
 		</td>-->
 	</tr>
 </table>

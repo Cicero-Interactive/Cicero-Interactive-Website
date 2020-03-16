@@ -14,14 +14,14 @@ module Process_galleries
 							if image["name"] == filename
 								included = true
 								if image["path"] == nil
-									image["path"] = gallery["dir"] + filename
+									image["path"] = site.baseurl + "/" + gallery["dir"] + filename
 								end
 								break
 							end
 						end
 					end
 					if included == false && gallery["visible"] == "all"
-						gallery["images"].append("path" => gallery["dir"] + filename)
+						gallery["images"].append("path" => site.baseurl + "/" + gallery["dir"] + filename)
 					end
 				end
 			end

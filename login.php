@@ -18,7 +18,7 @@
 		<title>Log In | Cicero Interactive</title>
 		<link rel="stylesheet" href="css/w3.css">
 		<link rel="stylesheet" href="css/stylesheet.css">
-		<link rel="icon" type="image/png" href="assets/img/favicon.ico">
+		<link rel="icon" type="image/png" href="{{ site.baseurl_root }}/assets/img/favicon.ico">
 		<script src="js/sidepnl.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=0.70">
 		<meta name="theme-color" content="black">
@@ -31,7 +31,7 @@
 		<table style="width: 100%; height: 100vh">
 			<tr>
 				<td>
-					<div class="blurBg" style="background-image: url(assets/img/bgLogin.png); background-position: center top; z-index: -1; height: 99%; top: 0"></div>
+					<div class="blurBg" style="background-image: url('{{ site.baseurl_root }}/assets/img/bgLogin.png'); background-position: center top; z-index: -1; height: 99%; top: 0"></div>
 					<?php include('components/lvl1/nav.php'); ?>
 				</td>
 			</tr>

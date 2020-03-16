@@ -10,7 +10,7 @@
 		<title>About | Cicero Interactive</title>
 		<link rel="stylesheet" href="css/w3.css">
 		<link rel="stylesheet" href="css/stylesheet.css">
-		<link rel="icon" type="image/png" href="assets/img/favicon.ico">
+		<link rel="icon" type="image/png" href="{{ site.baseurl_root }}/assets/img/favicon.ico">
 		<script src="js/sidepnl.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=0.70">
 		<meta name="theme-color" content="black">
@@ -27,8 +27,8 @@
 					
 					<div class="topImage">
 						<div>
-							<div style="background-image: url(assets/img/02.png)"></div>
-							<div style="background-image: url(assets/img/02.png)"></div>
+							<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
+							<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
 							<div><div style="max-width: 1060px; margin: auto">Privacy</div></div>
 						</div>
 					</div>

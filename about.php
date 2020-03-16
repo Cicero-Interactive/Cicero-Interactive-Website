@@ -13,8 +13,8 @@ nav_absolute: true
 			</div>
 			<div class="topImage">
 				<div>
-					<div style="background-image: url(assets/img/02.png)"></div>
-					<div style="background-image: url(assets/img/02.png)"></div>
+					<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
+					<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
 					<div><div style="max-width: 1060px; margin: auto">About us</div></div>
 				</div>
 			</div>
@@ -27,7 +27,7 @@ nav_absolute: true
 					<div class="row" style="height: 30px"></div>
 					<div class="row">
 						<div class="cell" style="padding: 0px 5% 0px 5%">
-							<font size="6" color="#ddd">General Information</font>
+							<font size="6" color="#ddd">{% t about.general_information %}</font>
 							<br>
 							<div>
 								Who is Cicero Interactive, you may ask? Well, we are the developing team known for our Romans vs. French games, founded by Julian Burner in 2015, when he first started with developing small useful windows tools.<br>
@@ -45,7 +45,7 @@ nav_absolute: true
 							<div class="members">
 								<a href="mailto:burnerjulian@gmail.com">
 									<div>
-										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
+										<div><div style="background-image: url('{{ site.baseurl_root }}/assets/img/members/empty.png')"></div></div>
 										<div>
 											<div>Julian Burner</div>
 											<div>Founder, CEO, Head of Development, Programmer, Web Designer</div>
@@ -54,7 +54,7 @@ nav_absolute: true
 								</a>
 								<a href="mailto:f.wilhelm793@gmx.de">
 									<div>
-										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
+										<div><div style="background-image: url('{{ site.baseurl_root }}/assets/img/members/empty.png')"></div></div>
 										<div id="newsText">
 											<div>Fabian Wilhelm</div>
 											<div>Art Supervisor & -Contributor, Storywriter</div>
@@ -63,7 +63,7 @@ nav_absolute: true
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
+										<div><div style="background-image: url('{{ site.baseurl_root }}/assets/img/members/empty.png')"></div></div>
 										<div>
 											<div>Bastian Schmid</div>
 											<div>Art Contributor</div>
@@ -72,7 +72,7 @@ nav_absolute: true
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
+										<div><div style="background-image: url('{{ site.baseurl_root }}/assets/img/members/empty.png')"></div></div>
 										<div>
 											<div>Erik P.</div>
 											<div>Sound Supervisor & -Contributor</div>
@@ -81,7 +81,7 @@ nav_absolute: true
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
+										<div><div style="background-image: url('{{ site.baseurl_root }}/assets/img/members/empty.png')"></div></div>
 										<div>
 											<div>Leo V.</div>
 											<div>Sound Contributor</div>
@@ -90,7 +90,7 @@ nav_absolute: true
 								</a>
 								<a>
 									<div>
-										<div><div style="background-image: url(assets/img/members/empty.png)"></div></div>
+										<div><div style="background-image: url('{{ site.baseurl_root }}/assets/img/members/empty.png')"></div></div>
 										<div>
 											<div>Gerhard Priller</div>
 											<div>Storywriter</div>

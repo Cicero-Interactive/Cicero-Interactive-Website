@@ -4,7 +4,8 @@
 	$active = "";
 ?>
 
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
 <html>
 	<head>
 		<title>
@@ -14,11 +15,11 @@
 				{{ page.title }} | Cicero Interactive
 			{% endif %}
 		</title>
-		<link rel="stylesheet" href="assets/css/stylesheet.css">
-		<link rel="icon" href="assets/img/favicon.ico">
-		<script src="assets/js/jquery.js"></script>
-		<script src="assets/js/progress.js"></script>
-		<script src="assets/js/sidepnl.js"></script>
+		<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/stylesheet.css">
+		<link rel="icon" href="{{ site.baseurl_root }}/assets/img/favicon.ico">
+		<script src="{{ site.baseurl_root }}/assets/js/jquery.js"></script>
+		<script src="{{ site.baseurl_root }}/assets/js/progress.js"></script>
+		<script src="{{ site.baseurl_root }}/assets/js/sidepnl.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=0.70">
 		<meta name="theme-color" content="black">
 		<meta name="apple-mobile-web-app-capable" content="yes">

@@ -3,7 +3,7 @@
 	<head>
 		<title>Tools | Cicero Interactive</title>
 		<link rel="stylesheet" href="stylesheet.css">
-		<link rel="icon" type="image/png" href="assets/img/favicon.ico">
+		<link rel="icon" type="image/png" href="{{ site.baseurl_root }}/assets/img/favicon.ico">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	</head>
@@ -13,7 +13,7 @@
 			<tr>
 				<td height="540" colspan="3" valign="top">
 					<br><br><br><br><br>
-					<img src="assets/img/menu.png" usemap="#Map">
+					<img src="{{ site.baseurl_root }}/assets/img/menu.png" usemap="#Map">
 				</td>
 			</tr>
 			
@@ -21,8 +21,8 @@
 			<tr>
 				<td width="60%" valign="top">
 					<div align="center">
-						<img src="assets/img/Cicero Interactive News.png" height="60"><br><br>
-						<img src="assets/img/CiceroInteractiveNews_Screenshot.png">
+						<img src="{{ site.baseurl_root }}/assets/img/Cicero Interactive News.png" height="60"><br><br>
+						<img src="{{ site.baseurl_root }}/assets/img/CiceroInteractiveNews_Screenshot.png">
 					</div>
 				</td>
 				<td align="left" width="37%">
@@ -40,10 +40,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#CiceroInteractiveNews">
-							<img src="assets/img/btnDownload.png" 
-							onmouseover="this.src='assets/img/btnDownloadHover.png'"
-							onmouseout="this.src='assets/img/btnDownload.png'"
-							onmousedown="this.src='assets/img/btnDownloadPress.png'"
+							<img src="{{ site.baseurl_root }}/assets/img/btnDownload.png" 
+							onmouseover="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='{{ site.baseurl_root }}/assets/img/btnDownload.png'"
+							onmousedown="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -60,8 +60,8 @@
 			<tr>
 				<td width="60%" valign="top">
 					<div align="center">
-						<img src="assets/img/Cicero Interactive Update Service.png" height="74"><br><br>
-						<img src="assets/img/CiceroInteractiveUpdateService_Screenshot.png">
+						<img src="{{ site.baseurl_root }}/assets/img/Cicero Interactive Update Service.png" height="74"><br><br>
+						<img src="{{ site.baseurl_root }}/assets/img/CiceroInteractiveUpdateService_Screenshot.png">
 					</div>
 				</td>
 				<td align="left" width="37%">
@@ -78,10 +78,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#CiceroInteractiveUpdateService">
-							<img src="assets/img/btnDownload.png" 
-							onmouseover="this.src='assets/img/btnDownloadHover.png'"
-							onmouseout="this.src='assets/img/btnDownload.png'"
-							onmousedown="this.src='assets/img/btnDownloadPress.png'"
+							<img src="{{ site.baseurl_root }}/assets/img/btnDownload.png" 
+							onmouseover="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='{{ site.baseurl_root }}/assets/img/btnDownload.png'"
+							onmousedown="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -98,8 +98,8 @@
 			<tr>
 				<td width="60%" valign="top">
 					<div align="center">
-						<img src="assets/img/Cicero's kleiner Mathe-Trainer.png" height="60"><br><br>
-						<img src="assets/img/Cicero'sKleinerMathe-Trainer_Screenshot.png">
+						<img src="{{ site.baseurl_root }}/assets/img/Cicero's kleiner Mathe-Trainer.png" height="60"><br><br>
+						<img src="{{ site.baseurl_root }}/assets/img/Cicero'sKleinerMathe-Trainer_Screenshot.png">
 					</div>
 				</td>
 				<td align="left" width="37%">
@@ -119,10 +119,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#CicerosKleinerMathe-Trainer">
-							<img src="assets/img/btnDownload.png" 
-							onmouseover="this.src='assets/img/btnDownloadHover.png'"
-							onmouseout="this.src='assets/img/btnDownload.png'"
-							onmousedown="this.src='assets/img/btnDownloadPress.png'"
+							<img src="{{ site.baseurl_root }}/assets/img/btnDownload.png" 
+							onmouseover="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='{{ site.baseurl_root }}/assets/img/btnDownload.png'"
+							onmousedown="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -139,8 +139,8 @@
 			<tr>
 				<td width="60%" valign="top">
 					<div align="center">
-						<img src="assets/img/Cicero Zufallsgenerator.png" height="74"><br><br>
-						<img src="assets/img/CiceroZufallsgenerator_Screenshot.png">
+						<img src="{{ site.baseurl_root }}/assets/img/Cicero Zufallsgenerator.png" height="74"><br><br>
+						<img src="{{ site.baseurl_root }}/assets/img/CiceroZufallsgenerator_Screenshot.png">
 					</div>
 				</td>
 				<td align="left" width="37%">
@@ -160,10 +160,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#CiceroZufallsgenerator">
-							<img src="assets/img/btnDownload.png" 
-							onmouseover="this.src='assets/img/btnDownloadHover.png'"
-							onmouseout="this.src='assets/img/btnDownload.png'"
-							onmousedown="this.src='assets/img/btnDownloadPress.png'"
+							<img src="{{ site.baseurl_root }}/assets/img/btnDownload.png" 
+							onmouseover="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='{{ site.baseurl_root }}/assets/img/btnDownload.png'"
+							onmousedown="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadPress.png'"
 							/>
 					</a>
 					</div>
@@ -180,8 +180,8 @@
 			<tr>
 				<td width="60%" valign="top">
 					<div align="center">
-						<img src="assets/img/MediBurn Player.png" height="74"><br><br>
-						<img src="assets/img/MBP_Screenshot.png">
+						<img src="{{ site.baseurl_root }}/assets/img/MediBurn Player.png" height="74"><br><br>
+						<img src="{{ site.baseurl_root }}/assets/img/MBP_Screenshot.png">
 					</div>
 				</td>
 				<td align="left" width="37%">
@@ -196,10 +196,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#MediBurnPlayer">
-							<img src="assets/img/btnDownload.png" 
-							onmouseover="this.src='assets/img/btnDownloadHover.png'"
-							onmouseout="this.src='assets/img/btnDownload.png'"
-							onmousedown="this.src='assets/img/btnDownloadPress.png'"
+							<img src="{{ site.baseurl_root }}/assets/img/btnDownload.png" 
+							onmouseover="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='{{ site.baseurl_root }}/assets/img/btnDownload.png'"
+							onmousedown="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -216,8 +216,8 @@
 			<tr>
 				<td width="60%" valign="top">
 					<div align="center">
-						<img src="assets/img/Picture Viewer.png" height="60"><br><br>
-						<img src="assets/img/PictureBurner_Screenshot.png">
+						<img src="{{ site.baseurl_root }}/assets/img/Picture Viewer.png" height="60"><br><br>
+						<img src="{{ site.baseurl_root }}/assets/img/PictureBurner_Screenshot.png">
 					</div>
 				</td>
 				<td align="left" width="37%">
@@ -232,10 +232,10 @@
 					<br>
 					<div align="center">				
 						<a href="downloads.html#PictureViewer">
-							<img src="assets/img/btnDownload.png" 
-							onmouseover="this.src='assets/img/btnDownloadHover.png'"
-							onmouseout="this.src='assets/img/btnDownload.png'"
-							onmousedown="this.src='assets/img/btnDownloadPress.png'"
+							<img src="{{ site.baseurl_root }}/assets/img/btnDownload.png" 
+							onmouseover="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadHover.png'"
+							onmouseout="this.src='{{ site.baseurl_root }}/assets/img/btnDownload.png'"
+							onmousedown="this.src='{{ site.baseurl_root }}/assets/img/btnDownloadPress.png'"
 							/>
 						</a>
 					</div>
@@ -252,7 +252,7 @@
 			<!--News-->
 			<tr>
 				<td class="news" colspan="2">
-					<p align="left"><img src="assets/img/news.png" alt="NEWS"></p>
+					<p align="left"><img src="{{ site.baseurl_root }}/assets/img/news.png" alt="NEWS"></p>
 				</td>
 			</tr>
 			<tr>	
@@ -271,8 +271,8 @@
 				</td>
 				<!--<td colspan="2">
 					<br>
-					<a href="https://www.facebook.com/starshiftvideogame?notif_t=page_fan"><img src="assets/img/fb_icon.png" alt="fb" height="38" width="150"></a><br>
-					<a href="http://www.indiedb.com/games/star-shift"><img src="assets/img/iDB_icon.png" alt="yt" height="38" width="150"></a><br>
+					<a href="https://www.facebook.com/starshiftvideogame?notif_t=page_fan"><img src="{{ site.baseurl_root }}/assets/img/fb_icon.png" alt="fb" height="38" width="150"></a><br>
+					<a href="http://www.indiedb.com/games/star-shift"><img src="{{ site.baseurl_root }}/assets/img/iDB_icon.png" alt="yt" height="38" width="150"></a><br>
 				</td>-->
 			</tr> 
 		</table>

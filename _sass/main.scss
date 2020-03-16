@@ -9,7 +9,7 @@ $sidepnl_width: 270px;
 body {
     color: #999;
     background-color: rgb(4, 10, 15);
-    background-image: url(assets/img/bg.png);
+    background-image: url('{{ site.baseurl_root }}/assets/img/bg.png');
     background-repeat: repeat;
     font-size: 16px;
     word-break: break-word;
@@ -85,7 +85,7 @@ h6 {
 //         position: absolute;
 //         width: 100%;
 //         top: 0;
-//         background-image: url(assets/img/bgNav.png);
+//         background-image: url('{{ site.baseurl_root }}/assets/img/bgNav.png');
 //         background-size: cover;
 //         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
 //         background-color: rgba(30, 30, 30, 0.5);
@@ -95,7 +95,7 @@ nav {
     width: 100%;
     z-index: 100;
     top: 0;
-    background-image: url(assets/img/bgNav.png);
+    background-image: url('{{ site.baseurl_root }}/assets/img/bgNav.png');
     background-size: cover;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.9);
     background-color: rgba(30, 30, 30, 0.5);
@@ -270,7 +270,7 @@ nav {
         > div {
             
             &:nth-child(-n+14) >span:nth-child(2) {                    
-                background-image: url(assets/img/hdlFI.png);
+                background-image: url('{{ site.baseurl_root }}/assets/img/hdlFI.png');
             }
 
             > div {
@@ -310,7 +310,7 @@ nav {
         overflow: hidden;
 
         >div {
-            background-image: url(assets/img/bg.png);
+            background-image: url('{{ site.baseurl_root }}/assets/img/bg.png');
             background-attachment: fixed;
 
             >div {
@@ -720,6 +720,6 @@ select:-moz-focusring {
 }
 @media only screen and (max-width: 600px) {
     .slideshow span:nth-child(-n+14) >span:nth-child(2) {
-        background-image: url(assets/img/hdlFIWrapped.png);
+        background-image: url('{{ site.baseurl_root }}/assets/img/hdlFIWrapped.png');
     }
 }

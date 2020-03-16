@@ -4,7 +4,7 @@
     <div style="max-width: 2000px; margin: auto">
         <!-- Navbar for wider devices -->
         <ul class="showOnBigScreen">
-            <li><a href="/"><img src="assets/img/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></a></li>
+            <li><a href="{{ site.baseurl }}"><img src="{{ site.baseurl_root }}/assets/img/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></a></li>
             {% for navitem in site.data.navitems %}
                 <li {% if navitem.dropdown %} class="dropdown" {% endif %}>
                     <a  {% if page.title == navitem.en %}
@@ -23,14 +23,14 @@
                 </li>
             {% endfor %}
             <li class="dropdown dropdown--lang" style="float:right">
-                <a><img src="assets/img/icoGlobe.png"></a>
+                <a><img src="{{ site.baseurl_root }}/assets/img/icoGlobe.png"></a>
                 <div class="dropdown-content">
                     {% for lang in site.languages %}
                         <a 
-                            {% if page.lang == lang %}
+                            {% if site.lang == lang %}
                                 class="active"
                             {% endif %}
-                            href="{{ lang.dest }}"><img src="assets/img/ico{{ lang }}.png">{{ site.languageNames[lang] }}
+                            href="{{ site.baseurl_root }}/{{ lang }}/"><img src="{{ site.baseurl_root }}/assets/img/ico{{ lang }}.png">{{ site.languageNames[lang] }}
                         </a>
                     {% endfor %}
                 </div>
@@ -58,7 +58,7 @@
             <?php ;} ?>
         </ul>
         <ul class="showOnSmallScreen">
-            <li><a href="./"><img src="assets/img/CILogo.png"></a></li>
+            <li><a href="./"><img src="{{ site.baseurl_root }}/assets/img/CILogo.png"></a></li>
             <li style="float:right"><a class="btnHamburger" onclick="openNav()">&#9776;</a></li>
         </ul>
     </div>

@@ -13,8 +13,8 @@ nav_absolute: true
 			</div>
 			<div class="topImage">
 				<div>
-					<div style="background-image: url(assets/img/02.png)"></div>
-					<div style="background-image: url(assets/img/02.png)"></div>
+					<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
+					<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
 					<div><div style="max-width: 1060px; margin: auto">All News</div></div>
 				</div>
 			</div>

@@ -3,7 +3,7 @@ layout: wrapper
 title: Verify
 ---
 <div class="table" style="width: 100%">
-	<div class="blurBg" style="background-image: url(assets/img/bgLogin.png); background-position: center top; z-index: -1; height: 99%"></div>
+	<div class="blurBg" style="background-image: url('{{ site.baseurl_root }}/assets/img/bgLogin.png'); background-position: center top; z-index: -1; height: 99%"></div>
 	<div class="tr">
 		<div class="td" style="height: 80px"></div>
 	</div>

@@ -11,7 +11,7 @@
                     </ul>
                     <div class="showOnBigScreenInline">
                         <span style="white-space: nowrap">© 2015-2019 Cicero Interactive</span>
-                        <img src="assets/img/CILogo.png" style="height: 32px; padding-left: 10px;">
+                        <img src="{{ site.baseurl_root }}/assets/img/CILogo.png" style="height: 32px; padding-left: 10px;">
                     </div>
                 </div>
             </div>	
