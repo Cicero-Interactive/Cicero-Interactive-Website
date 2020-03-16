@@ -19,7 +19,7 @@ module Process_navitems
 
 				# Assign missing link
 				if navitem["dest"] == nil && navitem["dropdown"] == nil
-					navitem["dest"] = navitem["en"].downcase + ".php"
+					navitem["dest"] = site.config["baseurl"] + "/" + navitem["en"].downcase + ".php"
 				end
 
 				# Process dropdown items
@@ -37,7 +37,7 @@ module Process_navitems
 
 						# Assign missing link
 						if dropdownitem["dest"] == nil
-							dropdownitem["dest"] = dropdownitem["en" + ".php"]
+							dropdownitem["dest"] = site.config["baseurl"] + "/" + dropdownitem["en" + ".php"]
 						end
 					end
 				end
