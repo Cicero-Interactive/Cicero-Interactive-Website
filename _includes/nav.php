@@ -7,11 +7,11 @@
             <li><a href="{{ site.baseurl }}"><img src="{{ site.baseurl_root }}/assets/img/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></a></li>
             {% for navitem in site.data.navitems %}
                 <li {% if navitem.dropdown %} class="dropdown" {% endif %}>
-                    <a  {% if page.title == navitem.en %}
+                    <a  {% if page.title == navitem.text %}
                             class="active"
                         {% endif %}
                         {% unless navitem.dropdown %} href="{{ navitem.dest }}" {% endunless %}>
-                        {{ navitem.en }} {% if navitem.dropdown %} ▾ {% endif %}
+                        {{ navitem.text }} {% if navitem.dropdown %} ▾ {% endif %}
                     </a>
                     {% if navitem.dropdown %}
                         <div class="dropdown-content">
