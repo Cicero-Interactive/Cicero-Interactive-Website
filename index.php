@@ -116,7 +116,7 @@ nav_absolute: true
 					<h2>News</h2>
 					<div class="news">
 						{% for post in site.posts limit:3 %}
-						<a href="{{ post.url }}">
+						<a href="{{ site.baseurl | append: post.url }}">
 							<div>
 								<div><div style="background-image: url('{{ site.baseurl_root }}/assets/img/news/{{ post.img }}')"></div></div>
 								<div>
