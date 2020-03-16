@@ -1,7 +1,7 @@
 {% assign page.navitems =  site.data.navitems | process_navitems %}
 
 <nav {% if page.nav_absolute %} class="posAbsolute" {% endif %}>
-    <div style="max-width: 2000px; margin: auto">
+    <div style="max-width: 1800px; margin: auto">
         <!-- Navbar for wider devices -->
         <ul class="showOnBigScreen">
             <li><a href="{{ site.baseurl }}"><img src="{{ site.baseurl_root }}/assets/img/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></a></li>
