@@ -35,6 +35,9 @@ module Process_navitems
 							end
 						end
 
+						# Assign text matching current language
+						dropdownitem["text"] = dropdownitem[site.config["lang"]]
+
 						# Assign missing link
 						if dropdownitem["dest"] == nil
 							dropdownitem["dest"] = site.config["baseurl"] + "/" + dropdownitem["en"].downcase + ".php"

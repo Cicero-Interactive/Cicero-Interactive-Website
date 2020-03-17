@@ -4,7 +4,7 @@
     <div style="max-width: 1800px; margin: auto">
         <!-- Navbar for wider devices -->
         <ul class="showOnBigScreen">
-            <li><a href="{{ site.baseurl }}"><img src="{{ site.baseurl_root }}/assets/img/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></a></li>
+            <li><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl_root }}/assets/img/CILogo.png" style="filter: drop-shadow(1px 1px 1px black) drop-shadow(-1px -1px 1px black);"></a></li>
             {% for navitem in site.data.navitems %}
                 <li {% if navitem.dropdown %} class="dropdown" {% endif %}>
                     <a  {% if page.title == navitem.text %}
@@ -16,7 +16,7 @@
                     {% if navitem.dropdown %}
                         <div class="dropdown-content">
                             {% for dropdownitem in navitem.dropdown %}
-                                <a href="{{ dropdownitem.dest }}">{{ dropdownitem.en }}</a>
+                                <a href="{{ dropdownitem.dest }}">{{ dropdownitem.text }}</a>
                             {% endfor %}
                         </div>
                     {% endif %}
