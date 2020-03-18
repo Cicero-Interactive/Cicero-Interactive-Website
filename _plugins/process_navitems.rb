@@ -4,6 +4,10 @@ module Process_navitems
 
 		if navitems
 			for navitem in navitems do
+				if navitem["processed"] == true
+					next
+				end
+
 				# Assign missing names
 				if navitem["en"] == nil
 					navitem["en"] = "undefined"
@@ -18,8 +22,12 @@ module Process_navitems
 				navitem["text"] = navitem[site.config["lang"]]
 
 				# Assign missing link
-				if navitem["dest"] == nil && navitem["dropdown"] == nil
-					navitem["dest"] = site.config["baseurl"] + "/" + navitem["en"].downcase + ".php"
+				if navitem["dropdown"] == nil
+					if navitem["dest"] == nil
+						navitem["dest"] = site.config["baseurl"] + "/" + navitem["en"].downcase + ".php"
+					elsif !navitem["dest"].include?("http")
+						navitem["dest"].prepend(site.config["baseurl"] + "/")
+					end
 				end
 
 				# Process dropdown items
@@ -41,11 +49,12 @@ module Process_navitems
 						# Assign missing link
 						if dropdownitem["dest"] == nil
 							dropdownitem["dest"] = site.config["baseurl"] + "/" + dropdownitem["en"].downcase + ".php"
-						else
+						elsif !dropdownitem["dest"].include?("http")
 							dropdownitem["dest"].prepend(site.config["baseurl"] + "/")
 						end
 					end
 				end
+				navitem["processed"] = true
 			end
 		end
 	end
