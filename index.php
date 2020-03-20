@@ -101,16 +101,12 @@ nav_absolute: true
 		<div class="card__inner">
 			<div class="card__inner__content card__inner__content--index">
 				<div style="grid-column: 1/2;">
-					<h2>About us</h2>
+					<h2>{% t home.about %}</h2>
 					<p>
-						Who is Cicero Interactive, you may ask? Well, we are the developing team known for our Romans vs. French games, founded by Julian Burner in 2015, when he first started with developing small useful windows tools.<br>
-						One to two years later, as this was getting boring, he decided to start making games. Some of his friends - espacially one called Friedl - helped him a lot with inventing creative stories, and due to some "Romans against French" fights they had back in school, the ideas of Latin Wars and French Invaders were born.<br><br>
-						Our first  project was a 2D space game inspired by '90s titles but with cutting-edge graphics and innovative features. Now, however, we're working on Latin Wars: Call of Rupert, a real-time strategy game and first part in a planned series of three games. <br><br>
-						Through the stars, our dream is coming true, step by step.<br>
-						New ideas, passion, tenacity and the desire to prove to everyone that anyone who has a dream can make it happen.
+						{% t about.general_information.content %}
 					</p>
-					<br><br>
-					<a class="button" href="about.php">Read More</a>
+					<br>
+					<a class="button button--angled" href="about.php">Read More</a>
 				</div>
 				<div style="grid-column: 2/3;">
 					<h2>News</h2>
@@ -127,8 +123,8 @@ nav_absolute: true
 							</div>
 						</a>
 						{% endfor %}
-						<br><br>
-						<a class="button" href="news.php">View All News</a>
+						<br>
+						<a class="button button--angled" href="news.php">View All News</a>
 					</div>
 				</div>
 			</div>
