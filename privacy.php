@@ -25,7 +25,7 @@
 				<td>
 					<?php include('components/lvl1/nav.php'); ?>
 					
-					<div class="topImage">
+					<div class="top-image">
 						<div>
 							<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
 							<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
