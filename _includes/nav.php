@@ -1,4 +1,4 @@
-{% assign page.navitems =  site.data.navitems | process_navitems %}
+{% assign page.navitems = site.data.navitems | process_navitems %}
 
 <nav {% if page.nav_absolute %} class="posAbsolute" {% endif %}>
     <div style="max-width: 1800px; margin: auto">
@@ -30,7 +30,7 @@
                             {% if site.lang == lang %}
                                 class="active"
                             {% endif %}
-                            href="{{ site.baseurl_root }}/{{ lang }}/"><img src="{{ site.baseurl_root }}/assets/img/ico{{ lang }}.png">{{ site.languageNames[lang] }}
+                            href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}"><img src="{{ site.baseurl_root }}/assets/img/ico{{ lang }}.png">{{ site.languageNames[lang] }}
                         </a>
                     {% endfor %}
                 </div>
