@@ -40,7 +40,7 @@ module Jekyll
               new_path = parts[0] + "/" + f_path
               puts "Moving '" + file_path + "' to '" + new_path + "'"
               if (Dir.exists?(new_path))
-                FileUtils.rm_r new_path
+                FileUtils.rm_r(new_path, :force => true)
               end
               FileUtils.move(file_path, new_path, :force => true)
             end
