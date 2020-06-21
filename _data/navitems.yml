@@ -1,6 +1,11 @@
 - en: About
   de: Über
 - en: Tools
+  dropdown:
+  - en: Browser Extensions
+    dest: tools/browser-extensions.php
+  - en: Windows Tweaking Tools
+    dest: tools/tweaking-tools.php
 - en: Games
   de: Spiele
   dropdown:
