@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,10 +10,14 @@
     <body>
         <script>
             var lang = navigator.language || navigator.userLanguage;
-            if (lang.indexOf('de') == 0)
-                window.location = '/de/';
-            else
-                window.location = '/en/';
+            {% for lang in site.languages %}
+                {% if lang != site.defaultLang %}
+                    if (lang.indexOf('{{ lang }}') == 0)
+                        window.location = '/{{ lang }}/';
+                    else
+                {% endif %}
+            {% endfor %}
+                window.location = '/{{ site.defaultLang }}/';
         </script>
     </body>
 </html>
