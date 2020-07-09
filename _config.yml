@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.comlanguages: ["en", "de"]
 languages: ["en", "de"]
-exclude_from_localizations: ["assets, base.php"]
+exclude_from_localizations: ["assets", "base.php"]
 defaultLang: en
 languageNames:
   de: Deutsch
