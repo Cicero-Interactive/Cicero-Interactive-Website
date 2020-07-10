@@ -6,13 +6,12 @@
 
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
-<html>
 	<head>
 		<title>
 			{% if page.title == "Cicero Interactive" %}
-				{{ page.title }}
+				{% t page.title %}
 			{% else %}
-				{{ page.title }} | Cicero Interactive
+				{% t page.title %} | Cicero Interactive
 			{% endif %}
 		</title>
 		<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/stylesheet.css">
