@@ -1,12 +1,53 @@
 site:
   description: Die offizielle Website von Cicero Interactive. Wir sind Entwickler von Spielen wie French Invaders, Websites wie dem Latin Paradise und vielem mehr!
 
-about:
-  title: Über
-  general_information: Allgemeine Informationen
-  general_information__content: >
-    Wer ist Cicero Interactive? Nun, wir sind das Entwicklerteam, das für unsere Spiele "Römer gegen Franzosen" bekannt ist und von Julian Burner im Jahr 2015 gegründet wurde, als er anfing, kleine nützliche Windows-Tools zu entwickeln.<br>
-    Ein bis zwei Jahre später, als dies langweilig wurde, beschloss er, Spiele zu machen. Einige seiner Freunde - vor allem einer namens Friedl - halfen ihm sehr bei der Erfindung kreativer Geschichten, und aufgrund einiger "Römer gegen Franzosen" -Kämpfe, die sie in der Schule hatten, wurden die Ideen von Latin Wars und French Invaders geboren.<br><br>
+home:
+  about: Über uns
+  about__content: >
+    Wer ist Cicero Interactive? Nun, wir sind das Entwicklerteam, das für unsere "Römer gegen Franzosen"-Spiele bekannt ist und von Julian Burner im Jahr 2015 gegründet wurde, als er anfing, kleine nützliche Windows-Tools zu entwickeln.<br>
+    Ein bis zwei Jahre später, als dies langweilig wurde, beschloss er, Spiele zu machen. Einige seiner Freunde - vor allem einer namens Friedl - halfen ihm sehr bei der Erfindung kreativer Geschichten, und aufgrund einiger "Römer gegen Franzosen"-Kämpfe, die sie in der Schule hatten, wurden die Ideen von Latin Wars und French Invaders geboren.<br><br>
     Unser erstes Projekt war ein 2D-Weltraumspiel, das von Titeln der 90er Jahre inspiriert war, aber über modernste Grafiken und innovative Funktionen verfügte. Jetzt arbeiten wir jedoch an Latin Wars: Call of Rupert, einem Echtzeit-Strategiespiel und dem ersten Teil einer geplanten Serie von drei Spielen.<br><br>
     Durch die Sterne wird unser Traum Schritt für Schritt wahr.<br>
     Neue Ideen, Leidenschaft, Hartnäckigkeit und der Wunsch, jedem zu beweisen, dass jeder, der einen Traum hat, ihn verwirklichen kann.
+
+about:
+  title: Über
+  general_information:
+    title: Wer wir sind
+    content: >
+      Wer ist Cicero Interactive? Nun, wir sind das Entwicklerteam, das für unsere "Römer gegen Franzosen"-Spiele bekannt ist und von Julian Burner im Jahr 2015 gegründet wurde, als er anfing, kleine nützliche Windows-Tools zu entwickeln.<br>
+      Ein bis zwei Jahre später, als dies langweilig wurde, beschloss er, Spiele zu machen. Einige seiner Freunde - vor allem einer namens Friedl - halfen ihm sehr bei der Erfindung kreativer Geschichten, und aufgrund einiger "Römer gegen Franzosen"-Kämpfe, die sie in der Schule hatten, wurden die Ideen von Latin Wars und French Invaders geboren.<br><br>
+      Unser erstes Projekt war ein 2D-Weltraumspiel, das von Titeln der 90er Jahre inspiriert war, aber über modernste Grafiken und innovative Funktionen verfügte. Jetzt arbeiten wir jedoch an Latin Wars: Call of Rupert, einem Echtzeit-Strategiespiel und dem ersten Teil einer geplanten Serie von drei Spielen.<br><br>
+      Durch harte Arbeit wird unser Traum Schritt für Schritt wahr.<br>
+      Neue Ideen, Leidenschaft, Hartnäckigkeit und der Wunsch, jedem zu beweisen, dass jeder, der einen Traum hat, ihn verwirklichen kann.
+  members:
+    title: Mitglieder
+    show_more: Mehr anzeigen
+    show_less: Weniger anzeigen
+    main:
+      jubu:
+        roles: 
+          - Gründer
+          - CEO
+          - Entwicklungsleiter
+          - Programmierer
+          - Web Designer
+        description: >
+          Julian ist der Gründer und die treibende Kraft hinter Cicero Interactive. Zuerst benötigte er nur ein Pseudonym, unter dem er seine Software veröffentlichen konnte. Mit der Zeit und mit zahlreichen neuen Projekten wuchs der Wunsch nach anderen Mitstreitern, und so brachten sich nach und nach viele seiner Freunde mit ins Team ein.
+      fawi:
+        roles: 
+          - Art Supervisor & Contributor
+          - Story Writer
+    supporters:
+      basc:
+        roles:
+          - Art Contributor
+      erp:
+        roles: 
+          - Sound Supervisor & Contributor
+      lev:
+        roles: 
+          - Sound Contributor
+      gepr:
+        roles: 
+          - Story Writer

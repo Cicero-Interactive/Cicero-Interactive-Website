@@ -1,0 +1,34 @@
+main:
+  - name: Julian Burner
+    short: jubu
+    img: jb.png
+    contacts:
+      - method: email
+        link: mailto:nebelnidas@gmail.com
+      - method: youtube
+        link: https://www.youtube.com/channel/UCE2rOwkqeNwHV_P65Kh27ew
+  - name: Fabian 'Friedl' Wilhelm
+    short: fawi
+    img: fw.png
+    contacts:
+      - method: email
+        link: mailto:f.wilhelm793@gmx.de
+supporters:
+  - name: Bastian Schmid
+    short: basc
+  - name: Erik P.
+    short: erp
+    img: erp.png
+    contacts:
+      - method: youtube
+        link: https://www.youtube.com/channel/UCt_e6jqo-KVxWuYZTXF7msg
+      - method: instagram
+        link: https://www.instagram.com/erik_guitars/
+      - method: soundcloud
+        link: https://soundcloud.com/user-371801726
+      - method: facebook
+        link: https://www.facebook.com/pages/category/Musician/Erik_guitars-101034238139244/
+  - name: Leo V.
+    short: lev
+  - name: Gerhard Priller
+    short: gepr

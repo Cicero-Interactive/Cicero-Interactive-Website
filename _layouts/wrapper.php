@@ -6,13 +6,12 @@
 
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
-<html>
 	<head>
 		<title>
 			{% if page.title == "Cicero Interactive" %}
-				{{ page.title }}
+				{% t page.title %}
 			{% else %}
-				{{ page.title }} | Cicero Interactive
+				{% t page.title %} | Cicero Interactive
 			{% endif %}
 		</title>
 		<link rel="stylesheet" href="{{ site.baseurl_root }}/assets/css/stylesheet.css">
@@ -24,6 +23,7 @@
 		<script src="{{ site.baseurl_root }}/assets/js/jquery.js"></script>
 		<script src="{{ site.baseurl_root }}/assets/js/progress.js"></script>
 		<script src="{{ site.baseurl_root }}/assets/js/sidepnl.js"></script>
+		<script src="{{ site.baseurl_root }}/assets/js/collapsible.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=0.70">
 		<meta name="theme-color" content="black">
 		<meta name="apple-mobile-web-app-capable" content="yes">

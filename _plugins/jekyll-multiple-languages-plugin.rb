@@ -387,10 +387,10 @@ module Jekyll
       lang = site.config['lang']
       
       translation = site.parsed_translations[lang].access(key) if key.is_a?(String)
-      
+
       if translation.nil? or translation.empty?
          translation = site.parsed_translations[site.config['default_lang']].access(key)
-        
+
         puts "Missing i18n key: #{lang}:#{key}"
         puts "Using translation '%s' from default language: %s" %[translation, site.config['default_lang']]
       end
