@@ -11,7 +11,7 @@ nav_absolute: true
 				<div class="progBar bar1"></div>
 				<div class="progBar bar2"></div>
 			</div>
-			<div class="topImage">
+			<div class="top-image">
 				<div>
 					<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
 					<div style="background-image: url('{{ site.baseurl_root }}/assets/img/02.png')"></div>
