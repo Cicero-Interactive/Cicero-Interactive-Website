@@ -7,19 +7,24 @@ nav_absolute: true
 {% assign page.galleries = site.data.galleries | process_galleries %}
 
 <main>
-	<div class="card card--slideshow">
+	<div class="section section--slideshow">
 		{% for gallery in site.data.galleries %}
 			{% if gallery.name == "slideshow" %}
-				{% for image in gallery.images %}
-					<div class="mySlides
-						{% if image.direction == "ltr" %}
+				{% for img in gallery.images %}
+					<div class="section--slideshow__slidecard mySlides
+						{% if img.direction == "ltr" %}
 							w3-animate-left
 						{% else %}
 							w3-animate-right
 						{% endif %}">
-						<div style="background-image: url('{{ image.path }}');"></div>
-						<div></div>
-						<div style="background-image: url('{{ image.path }}');"></div>
+						<div class="section--slideshow__image" style="background-image: url('{{ img.path }}');"></div>
+						<div class="section--slideshow__blur-image" style="background-image: url('{{ img.path }}');"></div>
+						<div class="section--slideshow__info section--slideshow__info--{{ img.theme }}">
+							{% assign page.ss_title = "home.slideshow." | append: img.product | append: ".title" %}
+							<h1 class="section--slideshow__info__title">{% t ss_title %}</h1>
+							<h2 class="section--slideshow__info__subtitle">{{ site.translations[site.lang]["home"]["slideshow"][img.product]["subtitle"] }}</h2>
+							<a class="button section--slideshow__info__button">{{ site.translations[site.lang]["home"]["slideshow"][img.product]["button"] }}</a>
+						</div>
 					</div>
 				{% endfor %}
 			{% endif %}
@@ -97,9 +102,9 @@ nav_absolute: true
 	</div>
 	<script src="{{ site.baseurl_root }}/assets/js/slideshow.js"></script>
 
-	<div class="card" style="background-color: rgb(20, 25, 35); border-top: 1px solid rgba(175, 175, 175, 0.15);">
-		<div class="card__inner">
-			<div class="card__inner__content card__inner__content--index">
+	<div class="section" style="background-color: rgb(20, 25, 35); border-top: 1px solid rgba(175, 175, 175, 0.15);">
+		<div class="section__inner">
+			<div class="section__inner__content section__inner__content--index">
 				<div style="grid-column: 1/2;">
 					<h2>{% t home.about %}</h2>
 					<p>
