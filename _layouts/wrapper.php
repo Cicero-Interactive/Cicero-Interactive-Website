@@ -23,6 +23,7 @@
 		<script src="{{ site.baseurl_root }}/assets/js/jquery.js"></script>
 		<script src="{{ site.baseurl_root }}/assets/js/progress.js"></script>
 		<script src="{{ site.baseurl_root }}/assets/js/sidepnl.js"></script>
+		<script src="{{ site.baseurl_root }}/assets/js/collapsible.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=0.70">
 		<meta name="theme-color" content="black">
 		<meta name="apple-mobile-web-app-capable" content="yes">
