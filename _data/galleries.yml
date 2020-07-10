@@ -5,3 +5,10 @@
   images:
   - name: 01.png
     direction: ltr
+  - name: 03.png
+    theme: dark
+  products:
+    - short: fi
+      images: [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    - short: cyd
+      images: [3, 16]
