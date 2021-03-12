@@ -13,11 +13,11 @@
             {% for lang in site.languages %}
                 {% if lang != site.defaultLang %}
                     if (lang.indexOf('{{ lang }}') == 0)
-                        window.location = '/{{ lang }}/';
+                        window.location = '{{ site.baseurl_root }}/{{ lang }}/';
                     else
                 {% endif %}
             {% endfor %}
-                window.location = '/{{ site.defaultLang }}/';
+                window.location = '{{ site.baseurl_root }}/{{ site.defaultLang }}/';
         </script>
     </body>
 </html>
