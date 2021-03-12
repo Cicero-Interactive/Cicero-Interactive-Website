@@ -5,7 +5,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Amazing Example Website</title>
+        <title>Cicero Interactive</title>
     </head>
     <body>
         <script>
