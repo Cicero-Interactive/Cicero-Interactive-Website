@@ -10,7 +10,7 @@
                         <li><a href="imprint.php">Imprint</a></li>
                     </ul>
                     <div class="showOnBigScreenInline">
-                        <span style="white-space: nowrap">© 2015-2019 Cicero Interactive</span>
+                        <span style="white-space: nowrap">© 2015-<?php echo date("Y"); ?> Cicero Interactive</span>
                         <img src="{{ site.baseurl_root }}/assets/img/CILogo.png" style="height: 32px; padding-left: 10px;">
                     </div>
                 </div>
